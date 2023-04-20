@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbb0ab81-4a31-47d5-9144-980050f29ab9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="XML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\localRepository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2Lthjv2qvGcX4Uu4O5KsfgYmtZq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="18" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.124843955" />
+    <property name="project.structure.side.proportion" value="0.23791349" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\SpringCloud\spring-cloud2023\cloud-config-center-3344\src\main\resources" />
+      <recent name="F:\code\SpringCloud\spring-cloud2023\cloud-consumer-hystrix-dashboard9001\src\main\resources" />
+      <recent name="F:\code\SpringCloud\spring-cloud2023\cloud-provider-payment8002\src\main\resources" />
+      <recent name="F:\code\SpringCloud\spring-cloud2023\cloud-eureka-server7001\src\main\resources" />
+      <recent name="F:\code\SpringCloud\spring-cloud2023\cLoud-consumer-order80\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zy.springcloud.dao" />
+      <recent name="com.zy.entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayMainApplication">
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zy.springcloud.EurekaMain7001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zy.springcloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-server9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zy.springcloud.GatewayMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zy.springcloud.PaymentMain8001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zy.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaMain7001" />
+      <item itemvalue="Spring Boot.EurekaMain7002" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.GatewayMainApplication" />
+      <item itemvalue="Spring Boot.PaymentMain8002" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayMainApplication" />
+        <item itemvalue="Spring Boot.PaymentMain8002" />
+        <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbb0ab81-4a31-47d5-9144-980050f29ab9" name="Changes" comment="" />
+      <created>1676696428852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676696428852</updated>
+      <workItem from="1676696430794" duration="152000" />
+      <workItem from="1676696661125" duration="17000" />
+      <workItem from="1676696721365" duration="50000" />
+      <workItem from="1676697008082" duration="299000" />
+      <workItem from="1676697324079" duration="2513000" />
+      <workItem from="1676894369350" duration="192000" />
+      <workItem from="1676894622467" duration="10290000" />
+      <workItem from="1676977254087" duration="2784000" />
+      <workItem from="1676980077841" duration="360000" />
+      <workItem from="1676980507285" duration="159000" />
+      <workItem from="1676980761644" duration="83000" />
+      <workItem from="1676980865673" duration="564000" />
+      <workItem from="1676981464081" duration="2624000" />
+      <workItem from="1676985460202" duration="1566000" />
+      <workItem from="1676987061352" duration="2566000" />
+      <workItem from="1677054421164" duration="39723000" />
+      <workItem from="1677684484882" duration="8000" />
+      <workItem from="1677684512881" duration="15000" />
+      <workItem from="1679650250519" duration="7505000" />
+      <workItem from="1681116191085" duration="14748000" />
+      <workItem from="1681292041450" duration="6499000" />
+      <workItem from="1681734830947" duration="1304000" />
+      <workItem from="1681740772585" duration="1693000" />
+      <workItem from="1681795879676" duration="8832000" />
+      <workItem from="1681875631920" duration="10971000" />
+      <workItem from="1681910031336" duration="5836000" />
+      <workItem from="1681968501405" duration="1862000" />
+      <workItem from="1681970571048" duration="1423000" />
+      <workItem from="1681972095390" duration="269000" />
+      <workItem from="1681972419380" duration="58000" />
+      <workItem from="1681972579920" duration="871000" />
+      <workItem from="1681973477375" duration="5202000" />
+      <workItem from="1681980100691" duration="4572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zy/springcloud/service/PaymentServiceImpl.java</url>
+          <line>28</line>
+          <properties class="com.zy.springcloud.service.PaymentServiceImpl" method="getPaymentById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zy/springcloud/controller/OrderHystrixController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zy/springcloud/controller/OrderHystrixController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,37 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: orderFeignHystrix80
+
+eureka:
+  client:
+    # 表示是否将自己注册进 EurekaServer 默认为 true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka #,http://eureka7002.com:7002/eureka
+    fetch-registry: true  #服务消费者客户端需要去检索服务
+  instance:
+    instance-id: orderFeignHystrix80
+    prefer-ip-address: true
+
+ribbon:
+  ReadTimeout: 6000 #建立连接所用的时间，适用于网络状况正常的情况下，两端两端连接所用的时间
+  ConnectionTimeout: 6000 #建立连接后，服务器读取到可用资源的时间
+
+# 用于服务降级 在注解@FeignClient 中添加 fallbackFactory 属性值
+feign:
+  hystrix:
+    enabled: true  # 在 Feign 中开启Hystrix
+
+#防止服务超时,此处设置为6秒，时长自定义
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+        timeout:
+          enabled: false

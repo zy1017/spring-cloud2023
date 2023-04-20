@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cloud-api-commons:war exploded">
+    <output-path>$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>cloud-api-commons</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cloud-api-commons" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket:1.3.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.4.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.4.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cloud-api-commons/web/Web" />
+    </root>
+  </artifact>
+</component>
